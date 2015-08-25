@@ -7,3 +7,12 @@
 meteor-platform
 autopublish
 insecure
+iron:router
+dburles:collection-helpers
+reywood:publish-composite
+zimme:iron-router-active
+yasinuslu:blaze-meta
+less
+nemo64:bootstrap
+jquery
+velocityjs:velocityjs

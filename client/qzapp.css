@@ -1,0 +1,63 @@
+/* CSS declarations go here */
+#title-index
+{  font-family: 'Limelight', cursive;
+  margin-right: 5px;
+  font-size: 10em;
+  padding-top: 15%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+
+}
+#subtitle
+{
+  margin-bottom: 1em;
+
+}
+
+#flag-container
+{
+
+  background: #6f5499;
+  color: rgb(255, 255, 255);
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#563d7c),to(#6f5499));
+
+
+}
+
+#start-engine
+{
+  color: #6f5499;
+}
+
+#noti{
+  color: rgb(125, 125, 125);
+  margin-bottom: 100%;
+}
+
+body {
+  position: relative;
+}
+#title
+{  font-family: 'Limelight', cursive;
+  margin-right: 5px;
+font-size: 2.5em;
+
+
+}
+
+
+
+
+/*
+zfcszfs
+*/
+
+
+
+
+.row {
+  margin-left:0px;
+  margin-right:0px;
+}
+
+/* Wrapper for page content to push down footer */
