@@ -1,4 +1,13 @@
 /* CSS declarations go here */
+#opt1{
+  margin: 0 auto;
+
+}
+body { 
+  padding-top: 70px; 
+}
+
+
 #text-engine{
   font-family: 'Limelight', cursive;
   font-size: 2em;
