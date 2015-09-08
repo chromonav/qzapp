@@ -10,11 +10,11 @@ Session.setDefault("qview",1);
 
 
  Template.engine.helpers({
-   question: "hello"
-  ,  option1:"yep"
-  , option2:"hoho"
-  , option3:"lol"
-  , option4:"hehe"
+   question: "what is my name"
+  ,  option1:"ck"
+  , option2:"chromonav"
+  , option3:"chinmay "
+  , option4:"all of the above"
   , no:function(){return Session.get("qview") }
 
   });

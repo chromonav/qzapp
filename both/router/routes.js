@@ -1,5 +1,5 @@
 Router.route('/', function () {
-  this.render('index', {
+  this.render('engine', {
     data: { title : "Quizup"
 
       }
