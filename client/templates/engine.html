@@ -2,45 +2,65 @@
 <div class="container-fluid">
 {{> navbar}}
 </div>
+
 <div class="container">
-	<div id="current-q" style="
-    text-align: center;
-    font-size: 3em;
-	">
-		<div >{{question}}</div>
- 	</div>
+	
+   <div id="current-q" >
+    <div >Q{{no}}:{{question}}</div>
+  </div>
 
 
-<div class="table-responsive">
-  <table class="table" id="optionlist" >
-  		<tr>
-  			<td id="opt1" >
-  				<div >
-  					  hello in opt1 	
-  				</div>			
-  			</td>
-  			<td id="opt2">
-  				hello in opt2 				
-  			</td>
-  		</tr>
+<div class="table-responsive" style="font-size:2.5em ">
+  <table class="table"  >
+      <tr>
+        <td id="opt1"  >
+          <div  class="optionlist">
+              {{option1}} 
+          </div>      
+        </td>
+        <td id="opt2" >
+          <div class="optionlist">
+              {{option2}} 
+          </div>      
+        </td>
+      </tr>
 
-  		<tr>
-  			<td id="opt3">
-  				hello in opt3 				
-  			</td>
-  			<td id="opt4">
-  				hello in opt4			
-  			</td>
-  		</tr>
+      <tr>
+        <td id="opt3" >
+          <div class="optionlist">
+              {{option3}} 
+          </div>        
+        </td>
+        <td id="opt4" >
+          <div class="optionlist">
+              {{option4}} 
+          </div>    
+        </td>
+      </tr>
   </table>
 </div>
 
 
-<nav class="navbar navbar-default navbar-fixed-bottom">
-  <div class="container">
-  	<button type="button" class="btn btn-default navbar-btn navbar-left" id="next">Back</button>
-    <button type="button" class="btn btn-default navbar-btn navbar-right" id="next">Next</button>
-  </div>
-</nav>
+
+<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+    <div class="navbar-header">
+      <div class="navbar-brand visible-xs"><button type="button" class="btn btn-default navbar-btn" id="questions-link">Questions</button></div>
+    </div>
+    <div class="navbar-brand visible-sm text-center"><button type="button" class="btn btn-default navbar-btn" id="questions-link" >Questions</button></div>
+    <div class="navbar-brand navbar-center hidden-xs hidden-sm"><button type="button" class="btn btn-default navbar-btn" id="questions-link" >Questions</button></div>
+    
+    <div class="navbar-collapse collapse in">
+      <ul class="nav navbar-nav navbar-left">
+          <li style="margin-left:20px"><a href="#back" id="back">Left</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li style="margin-right:20px;margin-left: 20px;"><a href="#next" id="next">Right</a></li>
+       </ul>
+    </div>
+  </nav>
+
 </div>
 </template>
+
+
+

@@ -1,5 +1,27 @@
 /* CSS declarations go here */
-#opt1{
+
+.navbar-center
+{
+   position: absolute;
+   width: 100%;
+   left: 0;
+   text-align: center;
+   margin: auto;
+}
+
+.navbar-brand{
+   float:none;
+}
+#questions-link{
+      margin-top: -5px;
+    margin-bottom: 0px;
+}
+#current-q{
+    font-size: 3.5em;
+    margin-left: 10%;
+}
+.optionlist{
+  width: 50%;
   margin: 0 auto;
 
 }
